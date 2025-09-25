@@ -52,3 +52,18 @@ form {
   width: 300px;
   border: solid slategray 2px;
 }
+
+a {
+  text-decoration: none;
+  font-size: larger;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(4, 206, 4);
+}
+
+.text {
+  color: rgb(223, 14, 14);
+}
