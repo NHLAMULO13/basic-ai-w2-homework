@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cover">
+      <h1 class="bounce">MELODIA</h1>
+      <h2>Discover the melody, unlock the meaning 🎶</h2>
+      <h4>Find the meaning, summary and theme of your favourite songs!</h4>
+      <form class="lyric-search">
+        <input
+          type="text"
+          placeholder="type the name of the artist and song title"
+          class="search-input"
+          id="search-input"
+        />
+        <input type="submit" value="search" class="search" id="search-button" />
+      </form>
+      <br />
+      <br />
+      <div id="lyricText"></div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
