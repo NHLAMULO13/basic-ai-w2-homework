@@ -1,4 +1,4 @@
-function fetchLyrics(event) {
+function fetchInformation(event) {
   event.preventDefault();
 
   let searchInput = document.querySelector("#search-input");
@@ -13,13 +13,13 @@ function fetchLyrics(event) {
 }
 
 function loadText(response) {
-  new Typewriter("#lyricText", {
+  new Typewriter("#informationText", {
     strings: response.data.answer,
     autoStart: true,
     curser: null,
-    delay: 20,
+    delay: 10,
   });
 }
 
 let search = document.querySelector("#search-button");
-search.addEventListener("click", fetchLyrics);
+search.addEventListener("click", fetchInformation);
